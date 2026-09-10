@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <!-- cor da net-->
+    <color name="cor1">#E70001</color>
+    <color name="cor1.2">#AA0407</color>
+    <color name="cor2">#f70000</color>
+    <color name="fundo">#171417</color>
+    <color name="menunave">@color/white</color>
+
+</resources>

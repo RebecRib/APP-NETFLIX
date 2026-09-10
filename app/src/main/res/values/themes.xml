@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Netflix" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/cor1</item>
+        <item name="colorPrimaryVariant">@color/cor1.2</item>
+        <item name="colorSecondary">@color/cor2</item>
+        <item name="android:windowBackground">@color/fundo</item>
+
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="Theme.Netflix" parent="Base.Theme.Netflix" />
+</resources>
