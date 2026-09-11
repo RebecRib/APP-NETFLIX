@@ -13,6 +13,7 @@
         android:id="@+id/imageCapa"
         android:layout_width="match_parent"
         android:layout_height="390dp"
+        android:alpha="0.8"
         android:scaleType="centerCrop"
         android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,15 +24,15 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="50dp"
-        android:layout_height="66dp"
+        android:layout_width="73dp"
+        android:layout_height="98dp"
         android:layout_margin="10dp"
         app:layout_constraintBottom_toBottomOf="@+id/linhaguiahorizonalsegunda"
         app:layout_constraintEnd_toStartOf="@+id/textSerie"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/linhaguiahorizontalprimeira"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.446"
         app:srcCompat="@drawable/logo" />
 
     <TextView
@@ -67,7 +68,7 @@
         android:id="@+id/textMinhaLista"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/minha_lista"
+        android:text="@string/Minha_lista"
         android:textColor="@color/menunave"
         android:textSize="14sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/textFilme"
@@ -181,7 +182,7 @@
         android:layout_height="66dp"
         android:backgroundTint="@android:color/transparent"
         android:drawableTop="@drawable/icplus"
-        android:text="@string/Minha_lista"
+        android:text="@string/minha_lista"
         android:textSize="10sp"
         app:iconSize="20dp"
         app:layout_constraintBottom_toBottomOf="@+id/btassistir"
@@ -252,6 +253,17 @@
         app:layout_constraintStart_toEndOf="@+id/imageView3"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:srcCompat="@drawable/free" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="149dp"
+        android:layout_height="15dp"
+        android:layout_marginBottom="24dp"
+        android:text="@string/rebeca_moreira_ribeiro"
+        android:textColor="@color/menunave"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/GUIALINHADIREITA"
+        app:layout_constraintStart_toStartOf="@+id/GUIALINHAESQUERDA" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
